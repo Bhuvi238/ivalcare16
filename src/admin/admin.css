@@ -1,0 +1,407 @@
+.adminbody{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial, Helvetica, sans-serif"; 
+}
+
+.warning {
+  display: none;
+}
+
+section {
+  display: flex;
+}
+
+.navbare {
+  width: 260px;
+ 
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+  transition: all 0.3s;
+  box-shadow: 10px 10px 10px rgba(227, 215, 215, 0.434);
+}
+.logoalign
+{
+  display:flex;
+}
+.navbare.active {
+  width: 0px;
+  padding: 0;
+}
+
+.navbare img {
+  margin-left: 5px;
+  width: 50px;
+  margin-bottom: 6px;
+}
+.navbare h2{
+  margin-left: 5px;
+  width: 50px;
+  margin-bottom: 6px;
+  font-family: "Arial, Helvetica, sans-serif";
+
+}
+.center-nav,
+.bottom-nav {
+  list-style: none;
+}
+
+.center-nav link,
+.bottom-nav link{
+  color: #161414;
+  text-decoration: none;
+  margin-left: 8px;
+}
+.heading
+{
+  font-size: 40px;
+  font-family: "Arial, Helvetica, sans-serif";
+  text-transform: uppercase;
+  padding-top: 5px;
+  justify-content: center;
+  color:#346e51
+}
+.center-nav li,
+.bottom-nav li {
+  padding: 5px 20px;
+  margin: 6px 0;
+  transition: all 0.3s;
+  font-size: 20px;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+.center-nav li:hover,
+.bottom-nav li:hover {
+  color:#f3f3f3;
+  transform: translateX(4px);
+}
+
+.bottom-nav li link:hover , .center-nav li link:hover {    
+  color: #f3f3f3;
+}
+
+
+
+
+/* ======= Main Content Styling ======= */
+.bars {
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 10px;
+  width: 100%;
+}
+
+.main-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.bar {
+  margin: 3px 0;
+  width: 20px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
+
+.input {
+  width: 100%;
+  text-align: center;
+}
+
+.input input {
+  width: 90%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(153, 132, 132);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user {
+  width: 40px;
+  position: relative;
+  transform: scaleX(-1);
+}
+
+.user img {
+  width: 100%;
+}
+
+/* ======== Styling Dashboard ======== */
+.dashboard {
+  padding: 10px;
+}
+
+.heading {
+  margin: 10px 0;
+}
+
+.color-boxe {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.boxe {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 5px;
+  border:2px solid black;
+  background-color:rgba(238, 231, 231, 0.5);
+  -webkit-box-shadow: 7px 20px 14px 12px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.boxe i {
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  color: #000000;
+}
+
+
+
+
+.boxe p {
+  line-height: 20px;
+  font-size: 19px;
+  font-family:"Arial, Helvetica, sans-serif";
+}
+
+
+
+
+/* ======== Styling Recent Activity ======== 
+.activity {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.activity table {
+  width: 100%;
+}
+*/
+/** table css **/
+@media (max-width: 767px) {
+  .fl-table {
+      display: block;
+      width: 100%;
+  }
+}
+
+
+.fl-table {
+  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+  font-family: "Arial, Helvetica, sans-serif";
+  border:2px solid black;
+  border-radius: 20px;
+  border-collapse: collapse;
+
+}
+
+.f1-table ,thead ,tr ,th
+{
+  border: 2px solid black;
+  line-height: 20px;
+  text-align: left;
+  font-size:22px;
+  border-collapse: collapse;
+  background-color:white
+}
+.f1-table thead tr th
+{
+  row-gap:15px;
+
+}
+
+.tablemain, tbody, tr, td,th
+{
+  border:2px solid black;
+  
+  border-collapse: collapse;
+  background-color:#f3f3f3;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+.tablemain,tr,th,td:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+#tablemain, tr ,td:hover {background-color: #ddd;}
+td {
+  line-height: 30px;
+  
+}
+
+.profilebtne
+{
+  
+  color:#040007;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin:0px;
+  padding: 10px;
+ 
+}
+.profilebtned {
+
+  color: #040007;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 10px;
+
+}
+.addbtne
+{
+  
+  color:#040007;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin:10px;
+  padding: 10px;
+  width:150px;
+ 
+}
+.addbtne:hover
+{
+  background-color:green;
+}
+.profilebtne:hover
+{
+    background-color:green;
+}
+.profilebtned:hover {
+background-color: rgb(221, 9, 37);
+}
+.profilebtnee
+{
+  
+  color:#040007;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin:10px;
+  padding: 10px;
+  width:80px;
+}
+.profilebtneee
+{
+ 
+  color:#040007;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin:10px;
+  padding: 10px;
+  width:80px;
+}
+
+.profilebtnee:hover
+{
+  background-color:green;
+}
+.profilebtneee:hover
+{
+  background-color:Red;
+}
+
+.headeradmin
+{
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 20px;
+  color:#040007;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:630px) {
+  section {
+      display: flex;
+  }
+
+  .warning {
+      padding: 5rem;
+      text-align: center;
+      line-height: 35px;
+      background-color: rgb(185, 72, 72);
+      display: flex;
+      color: #e1cdcd;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+  }
+}
+.dashboard
+{
+  align-items: justify;
+  padding: 0px;
+  margin: 10px 0;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+.adminnave
+{
+  background-image: url('abg2.png');
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+  position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.adminbg
+{
+  background-image: url('abg2.png');
+    width: 100%;
+    height: 100%;
+    
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.adminbge
+{
+  background-image: url('abg2.png');
+    width: 100%;
+    height:100vh;
+    top:0px;
+    left:0px;
+   position:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.adminbgee
+{
+  background-image: url('abg2.png');
+    width: 100%;
+    height:100vh;
+    top:0px;
+    left:0px;
+   position:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.alignupdate
+{
+  padding:150px;
+}
+.alignh1
+{
+  top:20px;
+
+}

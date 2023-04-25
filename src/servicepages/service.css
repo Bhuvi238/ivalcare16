@@ -1,0 +1,207 @@
+.mainbody {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+.maintracker
+{
+        background-image: url("tbg.png");
+        width: 100%;
+        height: 220vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px
+}
+.wfbg
+{
+    background-image: url("wbgg.png");
+    width: 100%;
+    height: 300vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px
+}
+
+.exbg
+{
+    background-image: url("exbg.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px
+}
+.blogbg
+{
+            background-image: url("blogbg.png");
+            width: 100%;
+            height:100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0px;
+            margin: 0px
+        
+}
+.blogmain
+{
+   margin:0px;
+   top:0px;
+ 
+  padding:50px;
+  display: flex;
+  
+    margin: 10px;
+    display: -ms-flexbox; /* IE 10 */
+  
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    
+}
+.mainbodye
+{
+   margin:0px;
+   top:0px;
+
+  padding:0px;
+  display: flex;
+  align-content: space-around;
+      margin: 10px;
+      height:40%;
+    
+}
+
+
+  
+.displayee
+{
+    padding:30px;
+    margin-left:40px;
+   
+}
+.card-container {
+    height:30%;
+    width: 90%;
+    padding-top:10px;
+  display: block;
+   padding-left:290px;
+
+}
+.explore-container {
+    height: 30%;
+        width: 90%;
+        padding-top: 10px;
+        display: block;
+        padding-left: 200px;
+       
+}
+.ecard-item {
+
+    width: 90%;
+    margin: 0px;
+    padding-top: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 7px 20px 14px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.3s ease;
+    border-color: rgba(16, 14, 14, 0.5);
+    align-content: space-between;
+}
+
+.card-item {
+
+    width: 90%;
+    margin: 0px;
+    padding-top:20px;
+    border-radius: 8px;
+    background-color:#ffffff;
+    -webkit-box-shadow: 7px 20px 14px 12px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    color:black;
+    transition: all 0.3s ease;
+     align-content: space-between;
+}
+
+.card-item:hover {
+    transform: rotate(1deg);
+    box-shadow: 0 20px 40px rgba(16, 14, 14, 0.5);
+}
+.doctormain
+    {
+            background-image: url("Dbg.png");
+            width: 100%;
+            height: 180vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0px;
+            margin: 0px;
+        }
+.imagee {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+    transition: all 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.content {
+    padding-left:15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.content  p {
+font-family: "Arial, Helvetica, sans-serif";
+    color: #221e1c;
+    font-size: 20px;
+}
+.content h1{
+    font-size: 30px;
+    padding: 0px;
+    text-transform: uppercase;
+    color:#4f44df;
+}
+.content h2{
+margin:5px;
+display: block;
+text-transform: uppercase;
+font-family: "Arial, Helvetica, sans-serif";
+}
+.title {
+   
+    color: #4f44df;
+    font-family: "Arial, Helvetica, sans-serif";
+font-size: 20px;
+}
+
+.bp {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    color: #221e1c;
+}
+
+.button1 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 18px;
+    text-decoration: none;
+    background-color: #e65b00;
+}
